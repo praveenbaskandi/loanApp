@@ -95,3 +95,19 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+# Loan List Page
+
+- On this page, we are fetching loan list from a dummy api.
+- There are 2 button rate low to high and rate high to low which filter the list in ascending or descending order according to rate of interest.
+- Also if api fails to get data from the server it will show an error message and a button to retry for refetching the data from the server.
+
+<img src="" width="200" height="400" />
+
+# Loan detail Page
+
+- When we click on the load data we land on this page.
+- We see detailed version of the loan.
+- On top there is a back button with will return us back to loan list page
+
+<img src="" width="200" height="400" />
