@@ -1,6 +1,6 @@
 import { Loan } from '../types/loan';
 
-const API_URL = 'https://mp4c5ca707a83a11041d.free.beeceptor.com/datav1';
+const API_URL = 'https://loanapp.free.beeceptor.com/loanApp';
 
 export async function fetchLoans(): Promise<Loan[]> {
   const response = await fetch(API_URL);

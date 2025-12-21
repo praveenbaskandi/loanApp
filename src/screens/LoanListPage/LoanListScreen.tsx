@@ -5,11 +5,11 @@ import {
   FlatList,
   TouchableOpacity,
   ActivityIndicator,
-  Button,
 } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
 
 import { RootStackParamList } from '../../navigation/types';
+import CustomButton from '../../component/CustomButton';
 import { loanListStyles as styles } from './styled';
 import { Texts } from '../../constants/Strings';
 import { Color } from '../../constants/Color';
@@ -47,24 +47,28 @@ const LoanListScreen: React.FC<Props> = ({ navigation }) => {
     return (
       <View style={styles.center}>
         <Text>{error}</Text>
-        <Button title={Texts.retry} onPress={loadLoans} />
+        <CustomButton
+          title={Texts.retry}
+          backgroundColor={Color.red}
+          onPress={loadLoans}
+        />
       </View>
     );
   }
 
   return (
     <View style={styles.container}>
-      <Button
+      <CustomButton
         title={Texts.lowToHigh}
-        color={selectedBtn === 1 ? Color.red : Color.grey}
+        backgroundColor={selectedBtn === 1 ? Color.red : Color.grey}
         onPress={() => {
           sortByInterestAscending();
           setSelectedBtn(1);
         }}
       />
-      <Button
+      <CustomButton
         title={Texts.highToLow}
-        color={selectedBtn === 2 ? Color.red : Color.grey}
+        backgroundColor={selectedBtn === 2 ? Color.red : Color.grey}
         onPress={() => {
           sortInterestDescending();
           setSelectedBtn(2);
