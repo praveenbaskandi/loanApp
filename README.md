@@ -101,8 +101,11 @@ To learn more about React Native, take a look at the following resources:
 - On this page, we are fetching loan list from a dummy api.
 - There are 2 button rate low to high and rate high to low which filter the list in ascending or descending order according to rate of interest.
 - Also if api fails to get data from the server it will show an error message and a button to retry for refetching the data from the server.
+<img width="206" height="622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-12-21 at 23 14 24" src="https://github.com/user-attachments/assets/220d2bcf-4529-4cee-9261-b56791af4e23" />
+<img width="206" height="622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-12-21 at 23 14 27" src="https://github.com/user-attachments/assets/9feb977e-7439-4f6e-a420-cfb18a6847ea" />
+<img width="206" height="622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-12-21 at 23 14 29" src="https://github.com/user-attachments/assets/0e517a8e-069d-4177-9dfe-aa1c9b982ce1" />
+<img width="206" height="622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-12-21 at 23 19 04" src="https://github.com/user-attachments/assets/0afebcff-da53-489f-8ea6-ddfd2dd6afdb" />
 
-<img src="" width="200" height="400" />
 
 # Loan detail Page
 
@@ -110,4 +113,5 @@ To learn more about React Native, take a look at the following resources:
 - We see detailed version of the loan.
 - On top there is a back button with will return us back to loan list page
 
-<img src="" width="200" height="400" />
+<img width="206" height="622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-12-21 at 23 14 32" src="https://github.com/user-attachments/assets/859483fa-0dd9-4bdb-9553-23a0b763aa17" />
+
