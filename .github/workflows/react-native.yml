@@ -71,7 +71,7 @@ jobs:
       - name: Build iOS (Simulator)
         run: |
           xcodebuild \
-            -workspace ios/App.xcworkspace \
+            -workspace ios/LoanApp.xcworkspace \
             -scheme App \
             -sdk iphonesimulator \
             -derivedDataPath build
