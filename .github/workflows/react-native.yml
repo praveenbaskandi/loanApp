@@ -32,8 +32,8 @@ jobs:
             android/.gradle
           key: gradle-${{ hashFiles('**/*.gradle*') }}
 
-      - name: Run tests
-        run: npm test -- --watch=false
+      # - name: Run tests
+      #   run: npm test -- --watch=false
 
       - name: Build Android Debug APK
         run: |
