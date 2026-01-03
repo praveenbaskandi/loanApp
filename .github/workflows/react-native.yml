@@ -72,7 +72,7 @@ jobs:
         run: |
           xcodebuild \
             -workspace ios/LoanApp.xcworkspace \
-            -scheme App \
+            -scheme LoanApp \
             -sdk iphonesimulator \
             -derivedDataPath build
 
